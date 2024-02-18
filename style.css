@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-color: #490404;
+    padding: 33px 0 35px 0;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+.nav-link{
+    font-size: 16px;
+    color: white;
+}
+
+
+
+/* hero section */
+
+
+#hero{
+    background-color: black;
+    padding-top: 70px;
+}
+
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 43px;
+}
+
+
+.hero-title{
+    color: white;
+    font-size: 51px;
+    width: 480px;
+}
+
+
+.hero-text{
+    color: white;
+    font-size: 16px;
+    width: 337px;
+    padding-bottom: 60px;
+}
+
+
+.hero-btn{
+    width: 203px;
+    height: 60px;
+    background-color: #8DFD1B;
+    border: 1px solid #8DFD1B;
+    color: black;
+    font-size: 16px;
+}
+
+
+/* roamp section */
+
+
+#roadmap{
+    background-color:  black;
+    padding: 100px 0 100px 0;
+}
+
+
+.roadmap-hero{
+    padding-bottom: 100px;;
+}
+
+
+.roadmap-hero h2{
+    text-align: center;
+    color: white;
+    font-size: 38px;
+}
+
+
+.roadmap-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+}
+
+
+.roadmap-header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #8DFD1B;
+    padding: 16px 0 18px 12px;
+}
+
+
+.info-rec{
+    width: 45px;
+    border: 2px solid #8DFD1B;
+}
+
+
+.info-rec h4{
+    color: #8DFD1B;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+.roadmap-text{
+    color: white;
+    font-size: 16px;
+}
+
+
+.roadmap-card{
+    width: 540px;
+    background-color: #222222;
+    border: 1px solid #8DFD1B;
+}
+
+
+.roadmap-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0 40px 0;
+}
+
+
+.rfooter-texts{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 10px;
+    color: white;
+    font-size: 11px;
+}
+
+
+
+
+/* collection */
+
+
+
+#collection{
+    background-color: black;
+}
+
+
+.collection-hero{
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    padding-bottom: 200px;;
+}
+
+
+.collection-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.collection-left h3{
+    color: white;
+    font-size: 48px;
+}
+
+
+.collection-left h3:nth-child(2){
+    color: #A8A8A8;
+    font-size: 48px;
+}
+
+
+.collection-right div{
+    width: 578px;
+    background-color: #222222;
+}
+
+
+input::placeholder{
+    color: white;
+    font-size: 16px;
+}
